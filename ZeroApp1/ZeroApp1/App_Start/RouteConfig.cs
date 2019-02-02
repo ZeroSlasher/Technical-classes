@@ -16,7 +16,7 @@ namespace ZeroApp1
             routes.MapRoute(
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "users", action = "Index", id = UrlParameter.Optional }
+                defaults: new { controller = "students", action = "Index", id = UrlParameter.Optional }
             );
         }
     }

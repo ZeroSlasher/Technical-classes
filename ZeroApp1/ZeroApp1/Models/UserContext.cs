@@ -15,5 +15,7 @@ namespace ZeroApp1.Models
                 Database.SetInitializer<UserContext>(d);
                 }
         public DbSet<user> users { get; set; }
+
+        public System.Data.Entity.DbSet<ZeroApp1.Models.student> students { get; set; }
     }
 }
